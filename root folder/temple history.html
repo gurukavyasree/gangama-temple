@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangamma Devi Charitra | History</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            font-family: 'Noto Sans Telugu', sans-serif;
+            background-color: #fff7e6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        h2 {
+            color: #8b0000;
+        }
+        .goddess-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .lang-toggle {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #8b0000;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .lang-toggle:hover {
+            background-color: #a52a2a;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #8b0000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>శ్రీ గంగమ్మ దేవి చరిత్ర | Goddess Gangamma History</h1>
+    </header>
+
+    <button class="lang-toggle" onclick="toggleLanguage()">Switch to English / తెలుగు</button>
+
+    <div class="content">
+        <img src="C:\Users\pc\OneDrive\Desktop\download.jpg" alt="Goddess Gangamma" class="goddess-img">
+
+        <!-- Telugu Version -->
+        <div id="telugu-content">
+            <h2>శ్రీ గంగమ్మ దేవి</h2>
+            <p>గంగమ్మ దేవి హిందూ మతంలో శక్తి స్వరూపిణిగా పూజించబడుతుంది. ఆమె అనేక ప్రాంతాలలో గ్రామ దేవతగా కొలువై ఉంది. ప్రొద్దుటూరులో గంగమ్మ దేవి ప్రత్యేకమైన స్థానం కలిగి ఉంది. ఆమె భక్తులకు రక్షణ కల్పిస్తూ, వారి కోరికలను తీర్చే శక్తి కలది.</p>
+            <p>గంగమ్మ దేవి కథ ప్రకారం, ఆమె ఒక పరాక్రమశాలి అయిన దేవత. ఆమె అనేక యుగాలుగా భక్తులకు కాపాడు తోంది. ప్రతీ సంవత్సరం, ప్రొద్దుటూరులో ఘనంగా గంగమ్మ జాతర నిర్వహించబడుతుంది. ఈ ఉత్సవాలలో వేలాది మంది భక్తులు పాల్గొంటారు.</p>
+            <p>గంగమ్మ ఆలయం నిత్యం పూజలతో నిండిపోతుంది. భక్తులు ప్రత్యేకంగా మొక్కుబడులు చెల్లించి, అమ్మవారికి అర్చనలు నిర్వహిస్తారు.</p>
+        </div>
+
+        <!-- English Version -->
+        <div id="english-content" style="display: none;">
+            <h2>Goddess Gangamma</h2>
+            <p>Goddess Gangamma is worshiped as a powerful incarnation of **Shakti** in Hinduism. She is regarded as the **guardian deity** in many villages and towns. In **Proddatur, Andhra Pradesh**, she holds a significant place, blessing her devotees with protection and prosperity.</p>
+            <p>According to legends, Gangamma Devi is a fierce deity who safeguards her devotees. She has been **worshiped for ages**, and every year, the **Gangamma Jatara** is celebrated grandly in Proddatur, attracting thousands of devotees.</p>
+            <p>The **Gangamma Temple** is always filled with devotees offering special **prayers, rituals, and vows** to seek the blessings of the Goddess.</p>
+        </div>
+    </div>
+
+    <p><a href="file:///C:/Users/pc/OneDrive/Desktop/index.html.html"><button class="lang-toggle">Back to Home</button></a></p>
+
+    <footer>
+        <p>© 2024 Gangamma Devi Temple | Proddatur, Andhra Pradesh</p>
+    </footer>
+
+    <script>
+        function toggleLanguage() {
+            var teluguContent = document.getElementById('telugu-content');
+            var englishContent = document.getElementById('english-content');
+
+            if (teluguContent.style.display === "none") {
+                teluguContent.style.display = "block";
+                englishContent.style.display = "none";
+            } else {
+                teluguContent.style.display = "none";
+                englishContent.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
