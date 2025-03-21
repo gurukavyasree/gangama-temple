@@ -1,0 +1,1 @@
+# gangama-temple
